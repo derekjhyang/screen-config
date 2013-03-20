@@ -1,0 +1,13 @@
+# showoff init msg.
+startup_message off
+
+# status bar
+caption always "%{=u .r} %-w%<%{=ub .Y}%N %t%{=u .r}%+w "
+hardstatus alwaysignore
+hardstatus alwayslastline "%{= .K} [%|]%<%=%{= .y}$USER%{= .R}@%H %=%{= .m} %Y/%m/%d%{= .M} %0c "
+
+# default encoding: utf-8
+defutf8 on
+
+# close vbell option(tab button)
+vbell off
